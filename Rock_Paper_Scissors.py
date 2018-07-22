@@ -1,6 +1,7 @@
 q=["Rock", "Paper", "Scissors"]
 import random
 def rps(c,h):
+ """ Returns result based on rules of Rock, Paper, Scissors """
  if c==h:
   return"Draw"
  elif c=="Rock":
