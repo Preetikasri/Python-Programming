@@ -56,7 +56,7 @@ while True:
 	elif r=="Human Win":
 		print"Human Win:",h_choice,"beats",c_choice
 		win+=1
-	else:
+	elif r=="Computer Win":
 		print"Computer Win:",c_choice,"beats",h_choice
 	if h_choice=='Rock':
 		a+=1
